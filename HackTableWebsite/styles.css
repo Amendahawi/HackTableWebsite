@@ -1,0 +1,541 @@
+/*
+HackTable 2021 Home page Styles css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(24, 24, 24);
+}
+  
+li a {
+    display: block;
+    color: rgb(168, 168, 168);
+    padding: 1% 3%;
+    text-decoration: none;
+    float: right;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 100%;
+    background: rgb(24, 24, 24);
+    text-shadow: 3px 3px 8px rgba(83, 83, 83, 0.58);
+}
+
+
+li a:hover {
+    background-color: rgb(19, 19, 19);
+    color:rgb(121, 179, 147);
+}
+
+.logo {
+    float: left;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgb(252, 28, 28) 50%, rgba(255,195,13,1) 75%, rgb(89, 251, 251) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.home:hover {
+    color:rgb(255, 253, 146);
+}
+
+.logo:hover {
+    color:rgb(255, 253, 146);
+}
+
+.HackTable{
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 3px;
+    border-color: rgb(24, 24, 24);
+}
+
+.firstImage{
+    background-color: rgb(39, 39, 39);
+}
+
+.HackTableDate{
+    font-family: 'Share Tech Mono', monospace;
+    color:rgb(255, 255, 255);
+    background-color: rgb(24, 24, 24);
+    padding: 1%;
+    text-decoration: none;
+    display: block;
+}
+
+.HackTableDate:hover{
+    background-color: #111;
+    color:rgb(121, 179, 147);
+}
+
+.desc{
+    background-color:rgb(15, 20, 26);
+}
+
+.introtitle{
+    padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgba(114,251,89,1) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.introdesc{
+    padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    color:rgb(42, 126, 35);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    display: block;
+    padding-bottom: 3%;
+}
+
+.HSLink{
+    color: rgb(0, 185, 0);
+    text-decoration: none;
+}
+
+.HSLink:hover{
+    color: rgb(3, 230, 3);
+}
+
+.Slashes{
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 70%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+}
+
+.TSHSPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+    background-color:rgb(255, 255, 255);
+    padding: 1px;
+    box-shadow: -9px -9px 9px rgba(58, 68, 93, 0.5), 9px 9px 9px #060C18;
+}
+
+.bottomIntroDesc{
+    padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    color:rgb(42, 126, 35);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    display: block;
+}
+
+.sponsors{
+    background: linear-gradient(180deg, #EBF3FA 1.04%, #E6EFF9 33.33%, #E6F0F9 100%);
+    text-align: center;
+    padding-bottom: 3%;
+    margin-bottom: 1%;
+}
+
+.sponsorstitle{
+    padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgba(114,251,89,1) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
+}
+
+.sponsors img{
+    width: 16%;
+    box-shadow: 22px 20px 20px rgba(181, 190, 197, 0.66), 20px 20px 20px #DAE2E7, inset 30px 24px 34px rgba(209, 217, 230, 0.34), inset 30px 28px 38px rgba(209, 217, 230, 0.4), inset 30px 35px 45px rgba(209, 217, 230, 0.48), inset 30px 54px 61px rgba(209, 217, 230, 0.67), inset -20px -63px 65px rgba(255, 255, 255, 0.75), inset -20px -36.8341px 42.6719px rgba(255, 255, 255, 0.539141), inset -20px -31.3638px 35.026px rgba(255, 255, 255, 0.44708), inset -20px -28.4185px 30.1667px rgba(255, 255, 255, 0.375);
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+.sponsors a{
+    text-decoration: none;
+    padding-left: 3%;
+}
+
+.sponsors img:hover{
+    width: 16.5%;
+}
+
+.HackTable2020{
+    padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgb(255, 6, 6) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.HackTable2020:hover{
+    color: rgb(0, 109, 128);
+}
+
+.HackTable2020desc{
+    font-size: 150%;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(121, 121, 121);
+}
+
+.HackTable2020s{
+    text-align: center;
+    padding-right: 3%;
+    padding-left: 3%;
+    background: linear-gradient(180deg, #EBF3FA 1.04%, #E6EFF9 33.33%, #E6F0F9 100%);
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.226);
+}
+
+.learnMore{
+    padding: 1%;
+    font-family: 'Share Tech Mono', monospace;
+    color:rgb(42, 126, 35);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+    display: block;
+    font-size: 150%;
+}
+
+.learnMore:hover{
+    color:rgb(47, 148, 38);
+    font-size: 155%;
+}
+
+.moreinfosectt{
+    text-align: center;}
+
+.moreInfoTitle{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgb(255, 6, 6) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+.moreInfo img{
+    justify-content: space-between;
+    width: 33%;
+    height: 33%;
+    box-shadow: 22px 20px 20px rgb(181, 190, 197), 20px 20px 20px #3a5461;
+    margin-top: 1%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding-left: 1%;
+}
+
+.infoDesc{
+    font-size: 150%;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(121, 121, 121);
+    padding-bottom: 3%;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.233);
+    background: linear-gradient(180deg, #EBF3FA 1.04%, #E6EFF9 33.33%, #E6F0F9 100%);
+
+}
+
+.meetTeam{
+    background-color: rgb(9, 8, 17);
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+.teamTitle{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgb(255, 6, 6) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 150%;
+    padding-bottom: 3%;
+}
+
+.teamImages img{
+    justify-content: space-between;
+    width: 30%;
+    height: 30%;
+    box-shadow: 10px 10px 9px 0px rgba(80, 80, 80, 0.13);
+    -webkit-box-shadow: 10px 10px 9px 0px rgba(80, 80, 80, 0.13);
+    -moz-box-shadow: 10px 10px 9px 0px rgba(80, 80, 80, 0.13);
+    margin-top: 1%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+}
+
+.teamNames{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Share Tech Mono', monospace;
+    color: green;
+    font-size: 125%;
+    padding-bottom: 0%;
+}
+
+.contactSec{
+    background: linear-gradient(180deg, #EBF3FA 1.04%, #E6EFF9 33.33%, #E6F0F9 100%);
+}
+
+.contactTitle{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgba(252,28,28,1) 50%, rgba(255,195,13,1) 75%, rgb(255, 6, 6) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 200%;
+    padding-bottom: 3%;
+}
+
+.email{
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Share Tech Mono', monospace;
+    color: green;
+    font-size: 100%;
+    padding-bottom: 6%;
+}
+
+.social a{
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(65, 65, 65);
+    font-size: 100%;
+}
+
+.social{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.social a:hover{
+    color: rgb(55, 96, 143);
+    font-size: 110%;
+}
+
+.social2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.social2 a{
+    text-decoration: none;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(168, 168, 168);
+    font-size: 100%;
+}
+
+.social2 a:hover{
+    color: rgb(138, 138, 138);
+    font-size: 110%;
+}
+
+.reserve{
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    display: block;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+}
+
+.topTitles{
+    background-color: rgb(29, 29, 29);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.sponsorTitle a{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgb(252, 28, 28) 50%, rgba(255,195,13,1) 75%, rgb(89, 251, 251) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 3%;
+    font-size: 100%;
+}
+
+.sponsorTitle a:hover{
+    font-size: 105%;
+}
+
+.pdfLink{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    padding-bottom: 3%;
+    font-size: 80%;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.pdfLink:hover{
+    font-size: 85%;
+    color: rgb(192, 192, 192);
+}
+
+.sponsorProspectDesc{
+    background: linear-gradient(180deg, #EBF3FA 1.04%, #E6EFF9 33.33%, #E6F0F9 100%);
+}
+
+.sponsorDescTitle{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgb(252, 28, 28) 50%, rgba(255,195,13,1) 75%, rgb(89, 251, 251) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 3%;
+    font-size: 175%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.sponsorDesc{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(22, 22, 22);
+    padding-bottom: 3%;
+    font-size: 100%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 120%;
+}
+
+.HackTableProspects{
+    background-color: rgb(22, 22, 22);
+    padding: 3%;
+}
+.HackTableProspects img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 16%;
+    box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.342);
+    -webkit-box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.342);
+    -moz-box-shadow: 10px 10px 9px 0px rgba(0, 0, 0, 0.342);
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px;
+}
+
+.prospectsTitle{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgb(252, 28, 28) 50%, rgba(255,195,13,1) 75%, rgb(89, 251, 251) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 3%;
+    font-size: 150%;
+}
+
+.FAQTitle{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgb(252, 28, 28) 50%, rgba(255,195,13,1) 75%, rgb(89, 251, 251) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 3%;
+    font-size: 180%;
+}
+
+.FAQDesc{
+    display: block;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    padding-bottom: 3%;
+    font-size: 120%;
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+.FAQqa{
+    background-color: rgb(24, 24, 24);
+    padding-bottom: 5%;
+}
+
+.FAQqa h1{
+    display: block;
+    text-align: left;
+    font-family: 'Share Tech Mono', monospace;
+    background: linear-gradient(147deg, rgba(249,15,216,1) 0%, rgb(67, 174, 245) 26%, rgb(252, 28, 28) 50%, rgba(255,195,13,1) 75%, rgb(89, 251, 251) 100%);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-bottom: 3%;
+    font-size: 140%;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.FAQqa p1{
+    display: block;
+    text-align: left;
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(204, 204, 204);
+    font-size: 140%;
+    padding-left: 3%;
+}
+.contactSection{
+    background-color: rgb(5, 8, 15);
+}
